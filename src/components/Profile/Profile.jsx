@@ -1,6 +1,7 @@
 import React from 'react';
 import './Profile.css';
 import { profileData } from '../../data/profileData';
+import profileImage from '../../assets/pfp.png';
 
 const Profile = () => {
   return (
@@ -9,7 +10,7 @@ const Profile = () => {
         {/* Profile Picture */}
         <div className="profile-image-wrapper">
           <img
-            src={profileData.profileImage}
+            src={profileImage}
             alt={profileData.name}
             className="profile-image"
           />
